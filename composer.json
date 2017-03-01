@@ -1,0 +1,13 @@
+{
+    "name": "unicodeveloper/pocco",
+    "description": "PHP Port of Docco - Write literate-style documentation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PROSPER OTEMUYIWA",
+            "email": "prosperotemuyiwa@gmail.com"
+        }
+    ],
+    "require": {}
+}
