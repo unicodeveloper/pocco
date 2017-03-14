@@ -1,6 +1,7 @@
 {
     "name": "unicodeveloper/pocco",
     "description": "PHP Port of Docco - Write literate-style documentation",
+    "keywords": [],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,5 +10,21 @@
             "email": "prosperotemuyiwa@gmail.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "files": [
+          "includes/helpers.php"
+        ],
+        "psr-4": {
+          "Mpociot\\Documentarian\\": "src/"
+        }
+    },
+    "bin": [
+        "pocco"
+    ],
+    "require": {
+        "mnapoli/silly": "^1.5",
+        "illuminate/view": "^5.4",
+        "mnapoli/front-yaml": "^1.5",
+        "windwalker/renderer": "^3.1"
+    }
 }
